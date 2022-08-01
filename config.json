@@ -2,6 +2,7 @@
     "modules": [
         "login",
         "main_navigation",
+        "dashboard",
         "pos",
         "order",
         "profile"
