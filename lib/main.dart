@@ -1,3 +1,4 @@
+import 'package:contoh_getx_baik/shared/theme/theme.dart';
 import 'package:getx_baik/shared/get/get.dart';
 import 'package:getx_baik/shared/get/get_builder.dart';
 import 'package:getx_baik/shared/get/get_material_app.dart';
@@ -8,9 +9,7 @@ void main() {
   runApp(GetMaterialApp(
     title: 'Flutter Demo',
     navigatorKey: Get.navigatorKey,
-    theme: ThemeData(
-      primarySwatch: Colors.blue,
-    ),
+    theme: appThemeData,
     home: HomeView(),
   ));
 }
