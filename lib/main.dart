@@ -1,4 +1,5 @@
 import 'package:contoh_getx_baik/module/login/view/login_view.dart';
+import 'package:contoh_getx_baik/module/profile/view/profile_view.dart';
 import 'package:contoh_getx_baik/shared/theme/theme.dart';
 import 'package:getx_baik/shared/get/get.dart';
 import 'package:getx_baik/shared/get/get_builder.dart';
@@ -11,7 +12,7 @@ void main() {
     title: 'Example App',
     navigatorKey: Get.navigatorKey,
     theme: defaultTheme,
-    home: LoginView(),
+    home: ProfileView(),
   ));
 }
 
