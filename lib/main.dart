@@ -9,7 +9,7 @@ void main() {
   runApp(GetMaterialApp(
     title: 'Example App',
     navigatorKey: Get.navigatorKey,
-    theme: appThemeData,
+    theme: defaultTheme,
     home: HomeView(),
   ));
 }
