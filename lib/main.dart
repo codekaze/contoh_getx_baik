@@ -12,7 +12,7 @@ void main() {
     title: 'Example App',
     navigatorKey: Get.navigatorKey,
     theme: defaultTheme,
-    home: ProfileView(),
+    home: LoginView(),
   ));
 }
 
