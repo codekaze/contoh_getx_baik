@@ -39,6 +39,7 @@ dependencies:
   getx_baik:
   intl:
   google_fonts:
+  uuid:
 
 dev_dependencies:
   flutter_test:
