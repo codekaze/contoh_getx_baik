@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(GetMaterialApp(
-    title: 'Flutter Demo',
+    title: 'Example App',
     navigatorKey: Get.navigatorKey,
     theme: appThemeData,
     home: HomeView(),
